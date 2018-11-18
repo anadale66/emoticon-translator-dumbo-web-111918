@@ -1,4 +1,4 @@
-
+require 'yeml'
 
 def load_library(file_path)
   emoticons_list = file_path
