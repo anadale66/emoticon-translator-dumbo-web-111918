@@ -1,7 +1,7 @@
 # require modules here
 
 def load_library(emoticons_yml)
-  return all_emoticons = emoticons_yml
+  emoticons_yml
 end
 
 def get_japanese_emoticon
