@@ -1,8 +1,12 @@
 require 'yaml'
 
 def load_library(file_path)
+  library = {"get_meaning" => {}, "get_emoticon" => {} }
   emoticons_list = YAML.load_file(file_path)
   emoticons_list.each do |meaning, language|
+    emoticons_list.each do |meaning, array| 
+      english_japanese = array 
+      
   end
 end
 
