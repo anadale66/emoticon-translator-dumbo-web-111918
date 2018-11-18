@@ -1,7 +1,6 @@
 
 
-def load_library(emoticons_yml)
-  require "yaml" 
+def load_library(file_path)
   em = emoticons_yml 
 end
 
