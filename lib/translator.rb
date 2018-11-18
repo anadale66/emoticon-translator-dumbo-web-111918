@@ -2,7 +2,7 @@
 
 def load_library(emoticons_yml)
   all_emoticons = emoticons_yml
-  all_emoticons 
+  return all_emoticons 
 end
 
 def get_japanese_emoticon
